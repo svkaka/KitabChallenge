@@ -4,15 +4,15 @@
             android:id="@+id/nav_graph_general" app:startDestination="@id/overviewFragment">
 
     <fragment android:id="@+id/overviewFragment"
-              android:name="com.ovrbach.kitabsawtichallenge.overview.OverviewFragment"
+              android:name="com.ovrbach.kitabsawtichallenge.general.overview.OverviewFragment"
               android:label="OverviewFragment"/>
     <fragment android:id="@+id/educationFragment"
-              android:name="com.ovrbach.kitabsawtichallenge.education.EducationFragment"
+              android:name="com.ovrbach.kitabsawtichallenge.general.education.EducationFragment"
               android:label="EducationFragment"/>
-    <fragment android:id="@+id/workFragment" android:name="com.ovrbach.kitabsawtichallenge.work.WorkFragment"
+    <fragment android:id="@+id/workFragment" android:name="com.ovrbach.kitabsawtichallenge.general.work.WorkFragment"
               android:label="WorkFragment"/>
-    <fragment android:id="@+id/skillsFragment" android:name="com.ovrbach.kitabsawtichallenge.skills.SkillsFragment"
+    <fragment android:id="@+id/skillsFragment" android:name="com.ovrbach.kitabsawtichallenge.general.skills.SkillsFragment"
               android:label="SkillsFragment"/>
-    <fragment android:id="@+id/contactFragment" android:name="com.ovrbach.kitabsawtichallenge.contact.ContactFragment"
+    <fragment android:id="@+id/contactFragment" android:name="com.ovrbach.kitabsawtichallenge.general.contact.ContactFragment"
               android:label="ContactFragment"/>
 </navigation>

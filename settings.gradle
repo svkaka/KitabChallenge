@@ -1,1 +1,1 @@
-include ':general', ':app', ':base', ':instantapp', ':overview', ':education', ':work', ':skills', ':contact'
+include ':general', ':app', ':base', ':instantapp'

@@ -8,20 +8,20 @@ import androidx.fragment.app.FragmentActivity
 import androidx.lifecycle.ViewModelProviders
 
 
-abstract class BaseFragment<VM : BaseViewModel>(
-    private val fragmentScopedViewModelClass: Class<VM>
+abstract class BaseFragment<
+        AVM : BaseViewModel>(
+        private val activityScopedViewModelClass: Class<AVM>
 ) : Fragment() {
 
-    protected lateinit var viewModel: VM
+    protected var activityViewModel: AVM? = null
 
-    override fun onAttach(context: Context) {
+    override
+
+    fun onAttach(context: Context) {
         super.onAttach(context)
-        (context as? FragmentActivity)?.let { activity ->
-            viewModel = ViewModelProviders.of(activity).get(fragmentScopedViewModelClass)
-        } ?: throw IllegalStateException("This type of fragment must be attached to activity")
+        (context as? BaseActivity<*>)?.let { activity ->
+            activityViewModel = ViewModelProviders.of(activity).get(activityScopedViewModelClass)
+        } ?: throw IllegalStateException("This type of fragment must be attached to BaseActivity")
     }
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-    }
 }

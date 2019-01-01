@@ -1,11 +1,11 @@
-package com.ovrbach.kitabsawtichallenge.overview
+package com.ovrbach.kitabsawtichallenge.general.overview
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.ovrbach.kitabsawtichallenge.base.BaseFragment
+import com.ovrbach.kitabsawtichallenge.general.R
 
 class OverviewFragment :  Fragment(){
         //BaseFragment<OverviewViewModel>(OverviewViewModel::class.java) {
