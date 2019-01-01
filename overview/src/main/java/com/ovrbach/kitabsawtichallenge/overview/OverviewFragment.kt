@@ -4,9 +4,11 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
 import com.ovrbach.kitabsawtichallenge.base.BaseFragment
 
-class OverviewFragment : BaseFragment<OverviewViewModel>(OverviewViewModel::class.java) {
+class OverviewFragment :  Fragment(){
+        //BaseFragment<OverviewViewModel>(OverviewViewModel::class.java) {
 
     override fun onCreateView(
             inflater: LayoutInflater, container: ViewGroup?,

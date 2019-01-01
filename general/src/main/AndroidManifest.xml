@@ -3,7 +3,7 @@
           package="com.ovrbach.kitabsawtichallenge.general">
 
     <application>
-        <activity android:name=".MainActivity">
+        <activity android:name=".GeneralActivity">
             <intent-filter android:order="1">
                 <action android:name="android.intent.action.VIEW"/>
 
