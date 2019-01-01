@@ -1,0 +1,207 @@
+{
+  "overview": "Android software engineer with more than 3 years of experience, gained mainly from implementing own ideas from scratch, thus experience with almost all parts of software lifecycle.",
+  "manifesto": "Excited for technology and its capabilities. Enjoying collaboration and iterative processes. Eager to learn and share knowledge.",
+  "education": [
+    {
+      "name": "Technical University of Kosice",
+      "startDate": "2012",
+      "endDate": "2017",
+      "reference": "https://www.tuke.sk",
+      "fieldOfStudy": "Informatics",
+      "degree": "Master"
+    },
+    {
+      "name": "Grammar School Lipany",
+      "startDate": "2004",
+      "endDate": "2012",
+      "reference": "https://gymlipany.edupage.org",
+      "fieldOfStudy": "Foreign languages"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Elcom POS",
+      "description": "Application for selling products and managing businesses ranging from small barbers to restaurants",
+      "techUsed": [
+        "Java",
+        "Android"
+      ],
+      "startDate": "Apr 2016",
+      "endDate": "Mar 2017",
+      "company": "Elcom s.r.o.",
+      "reference": "https://www.elcom.eu/en/produkty/pos-systemy/elcom-mobilepos-android/"
+    },
+    {
+      "name": "Eliope",
+      "description": "Bachelor thesis. Android application for managing books library",
+      "techUsed": [
+        "Android",
+        "Java",
+        "SQLite"
+      ],
+      "startDate": "Nov 2014",
+      "endDate": "May 2015",
+      "company": "Technical University of Kosice"
+    },
+    {
+      "name": "Dibble",
+      "description": "Application for general stores that can sell products with respect to fiscal policies",
+      "techUsed": [
+        "Android",
+        "Java",
+        "SQLite"
+      ],
+      "startDate": "Oct 2016",
+      "endDate": "Jan 2017",
+      "company": "Technical University of Kosice"
+    },
+    {
+      "name": "Knowledge extractor",
+      "description": "Master thesis. Eclipse plugin for extracting knowledge from xtUML models",
+      "techUsed": [
+        "Java",
+        "XtUML"
+      ],
+      "startDate": "Nov 2016",
+      "endDate": "Apr 2017",
+      "company": "Technical University of Kosice"
+    },
+    {
+      "name": "Help me decide",
+      "description": "Social platform for online communities, focused on helping people make choices and discuss philosophical and moral dilemmas",
+      "techUsed": [
+        "Java",
+        "Android",
+        "SQLite",
+        "Google Cloud engine"
+      ],
+      "startDate": "Jun 2016",
+      "endDate": "Nov 2016",
+      "company": "ovrbach"
+    },
+    {
+      "name": "Party mix",
+      "description": "Pack of party games for evenings with friends and family",
+      "techUsed": [
+        "Java",
+        "Kotlin",
+        "Android",
+        "Databinding",
+        "Architecture components",
+        "Room",
+        "Firebase realtime database",
+        "Firebase cloud functions",
+        "Firebase cloud messaging",
+        "CircleCi",
+        "kotlin Coroutines",
+        "Google Admob",
+        "Google billing"
+      ],
+      "startDate": "Jan 2017",
+      "company": "ovrbach"
+    },
+    {
+      "name": "Shopkeeper Quiz",
+      "description": "Copy of Dota shopkeeper quiz with extra features",
+      "techUsed": [
+        "Java",
+        "Kotlin",
+        "Android",
+        "Databinding",
+        "Architecture components",
+        "Room",
+        "CircleCi",
+        "kotlin Coroutines",
+        "Google Admob",
+        "Google billing",
+        "Google Play services"
+      ],
+      "startDate": "Aug 2017",
+      "company": "ovrbach"
+    },
+    {
+      "name": "Roof we share",
+      "description": "Ask me :)",
+      "techUsed": [
+        "Java",
+        "Kotlin",
+        "Kotlin multi-platform",
+        "Room",
+        "iOS",
+        "Android",
+        "Databinding",
+        "Architecture components",
+        "kotlin Coroutines",
+        "Firebase realtime database",
+        "Firebase storage",
+        "Firestore",
+        "Firebase cloud messaging",
+        "CircleCi",
+        "Google Admob",
+        "Google billing"
+      ],
+      "startDate": "Jun 2018",
+      "company": "ovrbach"
+    },
+    {
+      "name": "Builder timelapse",
+      "description": "Application for builders to track work progress",
+      "techUsed": [
+        "Java",
+        "Kotlin",
+        "Javascript",
+        "Android",
+        "Firebase realtime database",
+        "Firebase storage",
+        "Firebase cloud functions",
+        "Google billing"
+      ],
+      "startDate": "Jul 2017",
+      "company": "Hotovo s.r.o."
+    },
+    {
+      "name": "Ai recipes",
+      "description": "Android application that learns your taste and recommends recipes",
+      "techUsed": [
+        "Java",
+        "Android",
+        "Android NDK",
+        "Google vision"
+      ],
+      "startDate": "Oct 2017",
+      "endDate": "Jan 2018",
+      "company": "Hotovo s.r.o.",
+      "reference": "https://www.hotovo.org/2018/04/27/airecipes-application-your-new-shazam-for-food/"
+    },
+    {
+      "name": "Akixi Wallboard",
+      "description": "Application for call centers to oversee productivity of agents",
+      "techUsed": [
+        "Java",
+        "Android",
+        "Dagger 2"
+      ],
+      "startDate": "Oct 2017",
+      "endDate": "Nov 2017",
+      "company": "Hotovo s.r.o.",
+      "reference": "https://play.google.com/store/apps/details?id=com.akixi.wallboard"
+    },
+    {
+      "name": "Percolate",
+      "description": "Android application for marketers to build their brand",
+      "techUsed": [
+        "Java",
+        "Kotlin",
+        "Android",
+        "CircleCi",
+        "Firebase test lab",
+        "Dagger 2",
+        "Rx-java + Rx-Android",
+        "Retrofit"
+      ],
+      "startDate": "Feb 2018",
+      "company": "Hotovo s.r.o.",
+      "reference": "https://play.google.com/store/apps/details?id=com.percolate.app"
+    }
+  ]
+}
