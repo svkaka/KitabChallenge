@@ -1,4 +1,4 @@
-package com.ovrbach.kitabsawtichallenge.general.ui.education
+package com.ovrbach.kitabsawtichallenge.general.ui.work
 
 import android.view.LayoutInflater
 import android.view.View
@@ -8,9 +8,9 @@ import com.ovrbach.kitabsawtichallenge.common.entity.Project
 import com.ovrbach.kitabsawtichallenge.general.R
 import kotlinx.android.synthetic.main.item_project.view.*
 
-class ProjectAdapter(val items: List<Project>) : RecyclerView.Adapter<ProjectAdapter.MyHolder>() {
+class ProjectAdapterCompany(val items: List<Project>) : RecyclerView.Adapter<ProjectAdapterCompany.MyHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyHolder = MyHolder(
-            LayoutInflater.from(parent.context).inflate(R.layout.item_project, parent, false)
+            LayoutInflater.from(parent.context).inflate(R.layout.item_work_project, parent, false)
     )
 
     override fun getItemCount(): Int = items.size
