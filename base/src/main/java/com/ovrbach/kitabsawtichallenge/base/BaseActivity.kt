@@ -6,7 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProviders
 
-abstract class BaseActivity<AVM : BaseViewModel>(private val viewModelClass: Class<AVM>) : AppCompatActivity() {
+abstract class BaseActivity<AVM : BaseApplicationViewModel>(private val viewModelClass: Class<AVM>) : AppCompatActivity() {
 
     lateinit var viewModel: ViewModel
 

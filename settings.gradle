@@ -1,1 +1,1 @@
-include ':general', ':app', ':base', ':instantapp', ':common', ':remote'
+include ':general', ':app', ':base', ':instantapp', ':common', ':remote', ':local'

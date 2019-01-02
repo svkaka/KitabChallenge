@@ -9,7 +9,7 @@ import androidx.lifecycle.ViewModelProviders
 
 
 abstract class BaseFragment<
-        AVM : BaseViewModel>(
+        AVM : BaseApplicationViewModel>(
         private val activityScopedViewModelClass: Class<AVM>
 ) : Fragment() {
 

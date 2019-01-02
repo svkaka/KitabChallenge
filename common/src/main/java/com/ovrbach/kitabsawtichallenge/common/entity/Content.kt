@@ -1,6 +1,6 @@
 package com.ovrbach.kitabsawtichallenge.common.entity
 
-class Content(
+open class Content(
     val version: String,
     val overview: String,
     val manifesto: String,
