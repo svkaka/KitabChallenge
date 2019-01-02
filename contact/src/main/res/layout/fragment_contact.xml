@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.ovrbach.kitabsawtichallenge.general.contact.ContactFragment">
+    tools:context="com.ovrbach.kitabsawtichallenge.general.ui.contact.ContactFragment">
 
     <TextView
         android:layout_width="match_parent"

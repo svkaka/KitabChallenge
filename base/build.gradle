@@ -29,11 +29,12 @@ dependencies {
     api 'com.google.android.material:material:1.1.0-alpha02'
     api "androidx.lifecycle:lifecycle-extensions:2.0.0"
 
-    api "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.0.0"
     api "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.0.0"
 
     api "android.arch.navigation:navigation-fragment-ktx:1.0.0-alpha09"
     api "android.arch.navigation:navigation-ui-ktx:1.0.0-alpha09"
+
+    api project (":remote")
 
     application project(':app')
     feature project(':general')

@@ -1,4 +1,4 @@
-package com.ovrbach.kitabsawtichallenge.general.skills
+package com.ovrbach.kitabsawtichallenge.general.ui.skills
 
 import android.os.Bundle
 import android.view.LayoutInflater

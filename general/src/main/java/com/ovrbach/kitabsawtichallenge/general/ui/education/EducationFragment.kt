@@ -1,4 +1,4 @@
-package com.ovrbach.kitabsawtichallenge.general.work
+package com.ovrbach.kitabsawtichallenge.general.ui.education
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,18 +8,18 @@ import com.ovrbach.kitabsawtichallenge.base.BaseFragment
 import com.ovrbach.kitabsawtichallenge.general.GeneralViewModel
 import com.ovrbach.kitabsawtichallenge.general.R
 
-class WorkFragment : BaseFragment<GeneralViewModel>(GeneralViewModel::class.java) {
+class EducationFragment : BaseFragment<GeneralViewModel>(GeneralViewModel::class.java) {
 
     override fun onCreateView(
             inflater: LayoutInflater, container: ViewGroup?,
             savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.fragment_work, container, false)
+        return inflater.inflate(R.layout.fragment_education, container, false)
     }
 
     companion object {
         @JvmStatic
         fun newInstance() =
-                WorkFragment()
+                EducationFragment()
     }
 }

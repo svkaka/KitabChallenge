@@ -4,15 +4,15 @@
             android:id="@+id/nav_graph_general" app:startDestination="@id/overviewFragment">
 
     <fragment android:id="@+id/overviewFragment"
-              android:name="com.ovrbach.kitabsawtichallenge.general.overview.OverviewFragment"
+              android:name="com.ovrbach.kitabsawtichallenge.general.ui.overview.OverviewFragment"
               android:label="OverviewFragment"/>
     <fragment android:id="@+id/educationFragment"
-              android:name="com.ovrbach.kitabsawtichallenge.general.education.EducationFragment"
+              android:name="com.ovrbach.kitabsawtichallenge.general.ui.education.EducationFragment"
               android:label="EducationFragment"/>
-    <fragment android:id="@+id/workFragment" android:name="com.ovrbach.kitabsawtichallenge.general.work.WorkFragment"
+    <fragment android:id="@+id/workFragment" android:name="com.ovrbach.kitabsawtichallenge.general.ui.work.WorkFragment"
               android:label="WorkFragment"/>
-    <fragment android:id="@+id/skillsFragment" android:name="com.ovrbach.kitabsawtichallenge.general.skills.SkillsFragment"
+    <fragment android:id="@+id/skillsFragment" android:name="com.ovrbach.kitabsawtichallenge.general.ui.skills.SkillsFragment"
               android:label="SkillsFragment"/>
-    <fragment android:id="@+id/contactFragment" android:name="com.ovrbach.kitabsawtichallenge.general.contact.ContactFragment"
+    <fragment android:id="@+id/contactFragment" android:name="com.ovrbach.kitabsawtichallenge.general.ui.contact.ContactFragment"
               android:label="ContactFragment"/>
 </navigation>
